@@ -60,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             player_Animation.Walk(false);
+            
         }
     }//Function closing bracket 
 }// CLass closing bracket
