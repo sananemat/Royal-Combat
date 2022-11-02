@@ -33,6 +33,6 @@ public class PlayerAnimation : MonoBehaviour
     }
     public void Kick_2()
     {
-        anim.SetTrigger(AnimationTags.KICH_2_TRIGGER);
+        anim.SetTrigger(AnimationTags.KICK_2_TRIGGER);
     }
 }

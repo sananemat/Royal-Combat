@@ -31,8 +31,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         AnimatePlayerWalk();
-
-
     }
     void FixedUpdate()
     {
