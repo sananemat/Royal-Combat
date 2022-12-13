@@ -807,11 +807,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 
+  cloudProjectId: 3724891b-b781-4fb1-98dc-d027e65c2c0c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: My project (1)
+  organizationId: unity_067b47b5053110cb7cca
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
