@@ -39,7 +39,6 @@ public class PlayerAttack : MonoBehaviour
     {
     
     }
-
     public void ComboAttacksOnClick(){
    
          player_Animation.Punch_1();
@@ -55,6 +54,4 @@ public class PlayerAttack : MonoBehaviour
     {
         player_Animation.Kick_2();
     }
-
-
 }
