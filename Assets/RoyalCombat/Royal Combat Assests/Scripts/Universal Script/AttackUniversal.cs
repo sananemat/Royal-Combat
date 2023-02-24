@@ -37,8 +37,22 @@ public class AttackUniversal : MonoBehaviour
                hitFX_Pos.x -= 0.3f;
             }
             Instantiate(hit_FX_Prefab, hitFX_Pos ,Quaternion.identity);
-        }
-         
+
+            if(gameObject.CompareTag(Tags.LEFT_ARM_TAG) || gameObject.CompareTag(Tags.LEFT_LEG_TAG))
+            {
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage,true);
+            }
+            else
+            {
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage,false);
+            }
+        }// is player closing tag
+            if (is_Enemy)
+                {
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
+                }// if we have a Enemy
+
+
             gameObject.SetActive(false);
         }
     }

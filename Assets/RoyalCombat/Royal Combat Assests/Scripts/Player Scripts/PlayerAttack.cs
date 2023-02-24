@@ -39,9 +39,19 @@ public class PlayerAttack : MonoBehaviour
     {
     
     }
-    public void ComboAttacksOnClick(){
+    public void Punch1AttackOnClick(){
    
          player_Animation.Punch_1();
+      
+      }
+        public void Punch2AttackOnClick(){
+   
+         player_Animation.Punch_2();
+      
+      }
+       public void Punch3AttackOnClick(){
+   
+         player_Animation.Punch_3();
       
       }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeactivateGameObject : MonoBehaviour
 {
-    public float timer = 2f;
+    public float timer = 0.1f;
     // Start is called before the first frame update
     void Start()
     {

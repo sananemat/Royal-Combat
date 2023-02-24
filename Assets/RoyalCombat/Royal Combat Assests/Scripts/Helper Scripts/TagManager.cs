@@ -26,7 +26,7 @@ public class AnimationTags
 
     public const string KNOCK_DOWN_TRIGGER = "KnockDown";
 
-    public const string STAND_UP_TRIGGER = "Standup";
+    public const string STAND_UP_TRIGGER = "StandUp";
 
     public const string HIT_TRIGGER = "Hit";
 

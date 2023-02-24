@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
 
     public float attack_Distance = 1f;
 
-    private float chase_Player_After_Attack = 1f;
+    public float chase_Player_After_Attack = 1f;
  
     private float current_Attack_Time;
 
