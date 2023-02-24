@@ -109,7 +109,7 @@ public class CharacterAttackAnimation : MonoBehaviour
     IEnumerator StandUpAfterTime()
     {
         yield return new WaitForSeconds(stand_UP_Timer);
-        animationScript.StandUP(); 
+        animationScript.StandUP();  
 
     }
 
