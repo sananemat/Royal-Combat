@@ -757,20 +757,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1818468240, guid: 63689c6b26e22f74b8421cb18404ec12, type: 3}
-      propertyPath: stand_UP_Timer
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6833094891542872224, guid: 63689c6b26e22f74b8421cb18404ec12,
         type: 3}
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1134369393}
-    - target: {fileID: 7894424520243165806, guid: 63689c6b26e22f74b8421cb18404ec12,
-        type: 3}
-      propertyPath: health
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 8296472240651735929, guid: 63689c6b26e22f74b8421cb18404ec12,
         type: 3}
       propertyPath: m_Name
@@ -2481,10 +2472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1374784320, guid: 1b226f2f53cf80342b4ffd4fe4ef8666, type: 3}
-      propertyPath: stand_UP_Timer
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2511707245916039860, guid: 1b226f2f53cf80342b4ffd4fe4ef8666,
         type: 3}
       propertyPath: m_RootOrder

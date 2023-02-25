@@ -51,7 +51,7 @@ MonoBehaviour:
   damage: 2
   is_Player: 0
   is_Enemy: 1
-  hit_FX_Prefab: {fileID: 0}
+  hit_FX_Prefab: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
 --- !u!1 &3669291747540774440
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   damage: 2
   is_Player: 0
   is_Enemy: 1
-  hit_FX_Prefab: {fileID: 0}
+  hit_FX_Prefab: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
 --- !u!1 &5654253365307687257
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   damage: 2
   is_Player: 0
   is_Enemy: 1
-  hit_FX_Prefab: {fileID: 0}
+  hit_FX_Prefab: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
 --- !u!1 &7814808686680114802
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   damage: 2
   is_Player: 0
   is_Enemy: 1
-  hit_FX_Prefab: {fileID: 0}
+  hit_FX_Prefab: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
 --- !u!1 &8230804263691938514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,10 +1929,10 @@ MonoBehaviour:
   Left_Leg_Attack_Point: {fileID: 5654253365307687257}
   Right_Leg_Attack_Point: {fileID: 7814808686680114802}
   stand_UP_Timer: 2
-  whoosh_Sound: {fileID: 8300000, guid: 5ee78cf17ce83fa459c453d39da378e2, type: 3}
-  fall_Sound: {fileID: 8300000, guid: 4826157b72158d940a43ada181650c2a, type: 3}
-  ground_Hit_Sound: {fileID: 8300000, guid: 0cefefccd89585a45a157c84ef1009c6, type: 3}
-  dead_Sound: {fileID: 8300000, guid: 41173476ba96fb643befa58d0b465f31, type: 3}
+  Whoosh: {fileID: 8300000, guid: 5ee78cf17ce83fa459c453d39da378e2, type: 3}
+  PlayerKnockDown: {fileID: 8300000, guid: 4826157b72158d940a43ada181650c2a, type: 3}
+  Drop: {fileID: 8300000, guid: 0cefefccd89585a45a157c84ef1009c6, type: 3}
+  PlayerDeath: {fileID: 8300000, guid: 41173476ba96fb643befa58d0b465f31, type: 3}
 --- !u!4 &4433561761281243923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400040, guid: 87886e989f329e84fbd053fbcaff4f6b,

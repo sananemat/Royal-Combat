@@ -15,7 +15,7 @@ public class CharacterAttackAnimation : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField]
-    private AudioClip whoosh_Sound, fall_Sound, ground_Hit_Sound, dead_Sound;
+    private AudioClip Whoosh, PlayerKnockDown, Drop, PlayerDeath;
 
     private EnemyMovement enemyMovement;
 
@@ -23,7 +23,7 @@ public class CharacterAttackAnimation : MonoBehaviour
 
      void Awake() {
        animationScript = GetComponent<PlayerAnimation>();
-        audioSource=GetComponent<AudioSource>();
+        audioSource= GetComponent<AudioSource>();
 
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
             {
@@ -116,23 +116,23 @@ public class CharacterAttackAnimation : MonoBehaviour
     public void Attack_FX_Sound()
         {
         audioSource.volume=0.2f;
-        audioSource.clip=whoosh_Sound;
+        audioSource.clip=Whoosh;
         audioSource.Play();
         }
     public void CharacterDiedSound()
         {
         audioSource.volume=1f;
-        audioSource.clip= dead_Sound;
+        audioSource.clip=PlayerDeath;
         audioSource.Play();
         }
     public void Enemy_KnockedDown()
         {
-        audioSource.clip=fall_Sound;
+        audioSource.clip=PlayerKnockDown;
         audioSource.Play();
         }
     public void Hit_Ground()
         {
-        audioSource.clip=ground_Hit_Sound;
+        audioSource.clip=Drop;
         audioSource.Play();
         }
     public void DisableMovement()

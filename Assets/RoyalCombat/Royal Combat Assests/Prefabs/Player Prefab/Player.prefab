@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &192938910
 Transform:
   m_ObjectHideFlags: 0
@@ -68,7 +68,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1765225645
 Transform:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 483433862fee22043b795ec8ab70c52e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
+  health: 100
   is_Player: 1
 --- !u!1 &8296472240873519168
 GameObject:
@@ -800,11 +800,11 @@ MonoBehaviour:
   Right_Hand_Attack_Point: {fileID: 2124811335}
   Left_Leg_Attack_Point: {fileID: 1765225644}
   Right_Leg_Attack_Point: {fileID: 192938909}
-  stand_UP_Timer: 2
-  whoosh_Sound: {fileID: 8300000, guid: 5ee78cf17ce83fa459c453d39da378e2, type: 3}
-  fall_Sound: {fileID: 8300000, guid: 4826157b72158d940a43ada181650c2a, type: 3}
-  ground_Hit_Sound: {fileID: 8300000, guid: 0cefefccd89585a45a157c84ef1009c6, type: 3}
-  dead_Sound: {fileID: 8300000, guid: 41173476ba96fb643befa58d0b465f31, type: 3}
+  stand_UP_Timer: 1.5
+  Whoosh: {fileID: 8300000, guid: 5ee78cf17ce83fa459c453d39da378e2, type: 3}
+  PlayerKnockDown: {fileID: 8300000, guid: 4826157b72158d940a43ada181650c2a, type: 3}
+  Drop: {fileID: 8300000, guid: 0cefefccd89585a45a157c84ef1009c6, type: 3}
+  PlayerDeath: {fileID: 8300000, guid: 41173476ba96fb643befa58d0b465f31, type: 3}
 --- !u!1 &8296472240873519194
 GameObject:
   m_ObjectHideFlags: 0
