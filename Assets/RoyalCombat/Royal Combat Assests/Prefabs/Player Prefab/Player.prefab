@@ -223,6 +223,8 @@ GameObject:
   - component: {fileID: 5470097985167806323}
   - component: {fileID: 819135733}
   - component: {fileID: 7894424520243165806}
+  - component: {fileID: 1571358134}
+  - component: {fileID: 1571358142}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -334,6 +336,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   is_Player: 1
+  is_Enemy: 0
+--- !u!114 &1571358134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296472240651735929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2ebc031f0035a4cacc3afaaa29ce98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1571358142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296472240651735929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb43a2df1091ddf48824e4ddb6d5e25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winimage: {fileID: 0}
+  loseimage: {fileID: 0}
 --- !u!1 &8296472240873519168
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +663,7 @@ GameObject:
   - component: {fileID: 1818468240}
   m_Layer: 0
   m_Name: Player Child
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

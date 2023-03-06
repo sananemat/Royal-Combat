@@ -57,4 +57,6 @@ public class Tags
     public const string MAIN_CAMERA_TAG = "MainCamera";
 
     public const string HEALTH_UI = "HealthUI";
-}
+
+    public const string Enemy_HEALTH_UI = "EnemyHealthUI";
+    }

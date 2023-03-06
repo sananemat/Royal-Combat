@@ -18,6 +18,7 @@ public class CharacterAttackAnimation : MonoBehaviour
     private AudioClip Whoosh, PlayerKnockDown, Drop, PlayerDeath;
 
     private EnemyMovement enemyMovement;
+    private PlayerMovement playerMovement;
 
     private ShakeCamera shakeCamera;
 
@@ -28,6 +29,10 @@ public class CharacterAttackAnimation : MonoBehaviour
         if (gameObject.CompareTag(Tags.ENEMY_TAG))
             {
             enemyMovement= GetComponentInParent<EnemyMovement>();
+            }
+        if(gameObject.CompareTag(Tags.PLAYER_TAG))
+            {
+            playerMovement=GetComponentInParent<PlayerMovement>();
             }
         shakeCamera=GameObject.FindWithTag(Tags.MAIN_CAMERA_TAG).GetComponent<ShakeCamera>();
     }
@@ -162,7 +167,26 @@ public class CharacterAttackAnimation : MonoBehaviour
          Invoke("DeactivateGameObject", 2f);
         }
 
-    void DeactivateGameObject()
+    void DeactivateGameObject() //Deactivate enemy object
+        {
+        gameObject.SetActive(false);
+        }
+
+    public void DisablePlayerMovement()
+        {
+        playerMovement.enabled=false;
+
+        //set player parent to default layer
+        transform.parent.gameObject.layer=0;
+
+        }
+
+    void CharaterPlayerDied()
+        {
+        Invoke("DeactivatePlayerGameObject", 2f);
+        }
+
+    void DeactivatePlayerGameObject() //Deactivate player object
         {
         gameObject.SetActive(false);
         }

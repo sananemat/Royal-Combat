@@ -51,7 +51,8 @@ public class AttackUniversal : MonoBehaviour
                 {
                 hit[0].GetComponent<HealthScript>().ApplyDamage(damage, false);
                 }// if we have a Enemy
-
+           
+         
 
             gameObject.SetActive(false);
         }
