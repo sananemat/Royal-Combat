@@ -14,4 +14,12 @@ public class Game : MonoBehaviour
         Debug.Log("Quit Game");
         Application.Quit();
         }
+    public void SinglePlayer()
+        {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    public void Back()
+        {
+        SceneManager.LoadScene("SampleMenuScene");
+        }
     }

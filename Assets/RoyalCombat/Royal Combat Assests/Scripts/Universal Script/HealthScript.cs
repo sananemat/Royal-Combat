@@ -53,6 +53,7 @@ public class HealthScript : MonoBehaviour
                 }
             else
                 {
+                GameObject.FindWithTag(Tags.ENEMY_TAG).GetComponent<EnemyMovement>().enabled=false;
                 winStatus.SetWinner();
                 }
     }
