@@ -59,4 +59,8 @@ public class Tags
     public const string HEALTH_UI = "HealthUI";
 
     public const string Enemy_HEALTH_UI = "EnemyHealthUI";
+
+    public const string Enemy_Score = "EnemyScore";
+
+    public const string Player_Score = "PlayerScore";
     }

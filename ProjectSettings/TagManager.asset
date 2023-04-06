@@ -10,6 +10,9 @@ TagManager:
   - HEALTH_UI
   - HealthUI
   - EnemyHealthUI
+  - GameMusic
+  - PlayerScore
+  - EnemyScore
   layers:
   - Default
   - TransparentFX
