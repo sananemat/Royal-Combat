@@ -623,12 +623,6 @@ MonoBehaviour:
   power: 0.2
   duration: 0.2
   slowDownAmount: 1
---- !u!1 &484755065 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8296472240651735929, guid: 63689c6b26e22f74b8421cb18404ec12,
-    type: 3}
-  m_PrefabInstance: {fileID: 819135731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &533112709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,25 +1149,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 819135731}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484755065}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30729168bcaa394479f81ab66b7323b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &819135742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484755065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b88d501ad5aa7ec4985b86ae1900155a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerScoreBoard: {fileID: 1916530071}
 --- !u!1 &846381641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,7 +2474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1427566196
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2787,25 +2768,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.789292, y: 0.6571363, z: 1.8033988}
   m_Center: {x: -0.04631126, y: 0.15984592, z: -0.021544904}
---- !u!1 &1751395334 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8230804263691938514, guid: 1b226f2f53cf80342b4ffd4fe4ef8666,
-    type: 3}
-  m_PrefabInstance: {fileID: 4433561761692707844}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1751395343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751395334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5168296cff287da459f4f57738462397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyScoreBoard: {fileID: 1329858293}
 --- !u!1 &1791900783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1408175023816602, guid: 70b58defb3bca4125b1b6d4b1359cee3,
@@ -2995,7 +2957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1857017884
 RectTransform:
   m_ObjectHideFlags: 0
