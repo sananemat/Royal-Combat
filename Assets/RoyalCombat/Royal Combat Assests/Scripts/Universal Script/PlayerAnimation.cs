@@ -46,15 +46,15 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (attack == 0)
         {
-            anim.SetTrigger(AnimationTags.ATTACK_1_TRIGGER);
+            anim.SetTrigger(AnimationTags.PUNCH_1_TRIGGER);
         }
         if (attack == 1)
         {
-            anim.SetTrigger(AnimationTags.ATTACK_2_TRIGGER);
+            anim.SetTrigger(AnimationTags.PUNCH_2_TRIGGER);
         }
         if (attack == 2)
         {
-            anim.SetTrigger(AnimationTags.ATTACK_2_TRIGGER);
+            anim.SetTrigger(AnimationTags.KICK_1_TRIGGER);
         }
     }
 

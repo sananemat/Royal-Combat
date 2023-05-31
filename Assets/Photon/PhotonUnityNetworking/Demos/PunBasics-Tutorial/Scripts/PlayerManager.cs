@@ -138,7 +138,12 @@ namespace Photon.Pun.Demo.PunBasics
 
                 if (this.Health <= 0f && !this.leavingRoom)
                 {
-                    this.leavingRoom = GameManager.Instance.LeaveRoom();
+                    GameManager gameManager = FindObjectOfType<GameManager>();
+                    if (gameManager!=null)
+                        {
+                        gameManager.LeaveRoom();
+                        }
+                    
                 }
             }
 

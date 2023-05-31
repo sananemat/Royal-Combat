@@ -24,12 +24,14 @@ public class PlayerMovement : MonoBehaviour
     public float rotation_Y = -90f;
 
     public float rotation_Speed = 15f;
+    
 
     // Start is called before the first frame update
     void Awake()
     {
         myBody = GetComponent<Rigidbody>();
         player_Animation = GetComponentInChildren<PlayerAnimation>();
+
     }
 
     // Update is called once per frame
