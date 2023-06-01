@@ -11,6 +11,7 @@ public class NPCPlayer : MonoBehaviour
     public TMP_Text dialogueText;
     public string[] dialogue;
     private int index;
+ 
 
     public float wordSpeed;
     public bool EnemyIsClose;

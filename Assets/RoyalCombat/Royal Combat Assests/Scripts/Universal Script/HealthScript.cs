@@ -11,6 +11,7 @@ public class HealthScript : MonoBehaviour
     public bool is_Player, is_Enemy;
     private HealthUI health_UI;
     private DecideWinner winStatus;
+  
 
 
     void Awake()
@@ -20,6 +21,8 @@ public class HealthScript : MonoBehaviour
         health_UI=GetComponent<HealthUI>();
 
         winStatus=GetComponent<DecideWinner>();
+      
+
 
 
         }
@@ -51,11 +54,13 @@ public class HealthScript : MonoBehaviour
                 {
                 GameObject.FindWithTag(Tags.ENEMY_TAG).GetComponent<EnemyMovement>().enabled=false;
                 winStatus.Setloser();
+           
                 }
             else
                 {
                 GameObject.FindWithTag(Tags.ENEMY_TAG).GetComponent<EnemyMovement>().enabled=false;
                 winStatus.SetWinner();
+                
                 }
             }
         if (!is_Player)

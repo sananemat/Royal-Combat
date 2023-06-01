@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class DecideWinner : MonoBehaviour
 {
-    public GameObject winimage,loseimage;
+    public GameObject winpanel,losepanel;
+  
     // Start is called before the first frame update
     void Start()
     {
-        winimage.SetActive(false);
-        loseimage.SetActive(false);
-    }
+        winpanel.SetActive(false);
+        losepanel.SetActive(false);
+      
+        }
 
     public void SetWinner()
         {
-        winimage.SetActive(true);
+        winpanel.SetActive(true);
+       
+     
         }
     public void Setloser()
         {
-        loseimage.SetActive(true);
+        losepanel.SetActive(true);
+      
         }
     }
